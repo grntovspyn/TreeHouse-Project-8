@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85fe7df0-0ef1-49b8-9fd4-3f7d81ccd38e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$USER_HOME$/.composer/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1017">
+              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="68" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="51453" selection-start-column="51453" selection-end-column="51453" />
+              <folding>
+                <element signature="e#37645#38086#2" expanded="true" />
+                <element signature="e#39412#39840#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inc/bootstrap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/actions_tasks.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/functions_tasks.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>svg</find>
+      <find>#</find>
+      <find>4C3</find>
+      <find>AACCB1</find>
+      <find>icon</find>
+      <find>nav-</find>
+      <find>navbar-</find>
+      <find>nav</find>
+      <find>xMinYMin</find>
+      <find>meet</find>
+      <find>include 'connection.php';</find>
+      <find>array</find>
+      <find>id</find>
+      <find>task_id</find>
+      <find>title</find>
+      <find>url</find>
+      <find />
+      <find>M</find>
+      <find>alert</find>
+      <find>li</find>
+      <find>58477</find>
+      <find>color</find>
+      <find>updateTask</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>AB3E5B</replace>
+      <replace>87BDB1</replace>
+      <replace>global $db;</replace>
+      <replace>task_id</replace>
+      <replace>id</replace>
+      <replace>task</replace>
+      <replace>,</replace>
+      <replace>status</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/inc/connection.php" />
+        <option value="$PROJECT_DIR$/inc/bootstrap.php" />
+        <option value="$PROJECT_DIR$/inc/footer.php" />
+        <option value="$PROJECT_DIR$/account.php" />
+        <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/inc/header.php" />
+        <option value="$PROJECT_DIR$/task.php" />
+        <option value="$PROJECT_DIR$/inc/task_actions.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/task_list.php" />
+        <option value="$PROJECT_DIR$/inc/functions_tasks.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7">
+    <include_path>
+      <path value="$USER_HOME$/.composer/vendor/sebastian/comparator" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/environment" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/exporter" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/recursion-context" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/git" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/finder-facade" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/diff" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/version" />
+      <path value="$USER_HOME$/.composer/vendor/squizlabs/php_codesniffer" />
+      <path value="$USER_HOME$/.composer/vendor/guzzlehttp/guzzle" />
+      <path value="$USER_HOME$/.composer/vendor/guzzlehttp/psr7" />
+      <path value="$USER_HOME$/.composer/vendor/guzzlehttp/promises" />
+      <path value="$USER_HOME$/.composer/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$USER_HOME$/.composer/vendor/composer" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/core" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/regex" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/iterator" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/file" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/stream" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/ustring" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/math" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/ruler" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/visitor" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/compiler" />
+      <path value="$USER_HOME$/.composer/vendor/psr/http-message" />
+      <path value="$USER_HOME$/.composer/vendor/psr/log" />
+      <path value="$USER_HOME$/.composer/vendor/twbs/bootstrap" />
+      <path value="$USER_HOME$/.composer/vendor/twig/twig" />
+      <path value="$USER_HOME$/.composer/vendor/behat/transliterator" />
+      <path value="$USER_HOME$/.composer/vendor/behat/gherkin" />
+      <path value="$USER_HOME$/.composer/vendor/behat/behat" />
+      <path value="$USER_HOME$/.composer/vendor/nikic/php-parser" />
+      <path value="$USER_HOME$/.composer/vendor/phpmd/phpmd" />
+      <path value="$USER_HOME$/.composer/vendor/phploc/phploc" />
+      <path value="$USER_HOME$/.composer/vendor/laravel/homestead" />
+      <path value="$USER_HOME$/.composer/vendor/laravel/installer" />
+      <path value="$USER_HOME$/.composer/vendor/pdepend/pdepend" />
+      <path value="$USER_HOME$/.composer/vendor/phpspec/prophecy" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-timer" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-file-iterator" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-text-template" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-token-stream" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-code-coverage" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/phpunit" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/console" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/process" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/dependency-injection" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/debug" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/filesystem" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/finder" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/event-dispatcher" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/translation" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/polyfill-mbstring" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/class-loader" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/config" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/yaml" />
+      <path value="$USER_HOME$/.composer/vendor/theseer/fdomdocument" />
+      <path value="$USER_HOME$/.composer/vendor/theseer/directoryscanner" />
+      <path value="$USER_HOME$/.composer/vendor/theseer/phpdox" />
+      <path value="$USER_HOME$/.composer/vendor/theseer/fxsl" />
+      <path value="$USER_HOME$/.composer/vendor/doctrine/instantiator" />
+      <path value="$USER_HOME$/.composer/vendor/halleck45/phpmetrics" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/global-state" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-925" />
+    <option name="y" value="-795" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="/Applications/MAMP/bin/php/php7.0.0/bin" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85fe7df0-0ef1-49b8-9fd4-3f7d81ccd38e" name="Default Changelist" comment="" />
+      <created>1551129154154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551129154154</updated>
+      <workItem from="1551129155517" duration="9533000" />
+      <workItem from="1551203513957" duration="10181000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19714000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-925" y="-795" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.273021" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.19114688" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32928944" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.3986135" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.34315425" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4983845" visible="true" weight="0.32930514" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5016155" side_tool="true" visible="true" weight="0.32930514" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Application Servers" order="10" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="11" weight="0.32928944" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User_font_awesome.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1017">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="68" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51453" selection-start-column="51453" selection-end-column="51453" />
+          <folding>
+            <element signature="e#37645#38086#2" expanded="true" />
+            <element signature="e#39412#39840#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/functions_tasks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/actions_tasks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

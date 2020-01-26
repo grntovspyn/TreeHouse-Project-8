@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/http-foundation": "^4.2",
+        "vlucas/phpdotenv": "^4.1"
+    }
+}

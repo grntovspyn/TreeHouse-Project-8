@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Behat">
+    <behat_settings>
+      <BehatSettings behat_path="$USER_HOME$/.composer/vendor/behat" />
+    </behat_settings>
+  </component>
+  <component name="MessDetector">
+    <phpmd_settings>
+      <MessDetectorConfiguration tool_path="$USER_HOME$/.composer/vendor/phpmd/phpmd/src/bin/phpmd" />
+    </phpmd_settings>
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="$USER_HOME$/.composer/vendor/squizlabs/php_codesniffer/scripts/phpcs" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$USER_HOME$/.composer/vendor/sebastian/comparator" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/environment" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/exporter" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/recursion-context" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/git" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/finder-facade" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/diff" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/version" />
+      <path value="$USER_HOME$/.composer/vendor/squizlabs/php_codesniffer" />
+      <path value="$USER_HOME$/.composer/vendor/guzzlehttp/guzzle" />
+      <path value="$USER_HOME$/.composer/vendor/guzzlehttp/psr7" />
+      <path value="$USER_HOME$/.composer/vendor/guzzlehttp/promises" />
+      <path value="$USER_HOME$/.composer/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$USER_HOME$/.composer/vendor/composer" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/core" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/regex" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/iterator" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/file" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/stream" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/ustring" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/math" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/ruler" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/visitor" />
+      <path value="$USER_HOME$/.composer/vendor/hoa/compiler" />
+      <path value="$USER_HOME$/.composer/vendor/psr/http-message" />
+      <path value="$USER_HOME$/.composer/vendor/psr/log" />
+      <path value="$USER_HOME$/.composer/vendor/twbs/bootstrap" />
+      <path value="$USER_HOME$/.composer/vendor/twig/twig" />
+      <path value="$USER_HOME$/.composer/vendor/behat/transliterator" />
+      <path value="$USER_HOME$/.composer/vendor/behat/gherkin" />
+      <path value="$USER_HOME$/.composer/vendor/behat/behat" />
+      <path value="$USER_HOME$/.composer/vendor/nikic/php-parser" />
+      <path value="$USER_HOME$/.composer/vendor/phpmd/phpmd" />
+      <path value="$USER_HOME$/.composer/vendor/phploc/phploc" />
+      <path value="$USER_HOME$/.composer/vendor/laravel/homestead" />
+      <path value="$USER_HOME$/.composer/vendor/laravel/installer" />
+      <path value="$USER_HOME$/.composer/vendor/pdepend/pdepend" />
+      <path value="$USER_HOME$/.composer/vendor/phpspec/prophecy" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-timer" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-file-iterator" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-text-template" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-token-stream" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/php-code-coverage" />
+      <path value="$USER_HOME$/.composer/vendor/phpunit/phpunit" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/console" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/process" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/dependency-injection" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/debug" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/filesystem" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/finder" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/event-dispatcher" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/translation" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/polyfill-mbstring" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/class-loader" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/config" />
+      <path value="$USER_HOME$/.composer/vendor/symfony/yaml" />
+      <path value="$USER_HOME$/.composer/vendor/theseer/fdomdocument" />
+      <path value="$USER_HOME$/.composer/vendor/theseer/directoryscanner" />
+      <path value="$USER_HOME$/.composer/vendor/theseer/phpdox" />
+      <path value="$USER_HOME$/.composer/vendor/theseer/fxsl" />
+      <path value="$USER_HOME$/.composer/vendor/doctrine/instantiator" />
+      <path value="$USER_HOME$/.composer/vendor/halleck45/phpmetrics" />
+      <path value="$USER_HOME$/.composer/vendor/sebastian/global-state" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$USER_HOME$/.composer/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
