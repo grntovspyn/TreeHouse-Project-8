@@ -3,9 +3,10 @@ require_once 'inc/bootstrap.php';
 
 $pageTitle = "Task | Time Tracker";
 $page = "task";
-
+$ctask = new App\Model\Task;
 if (request()->get('id')) {
-    list($task_id, $task, $status) = getTask(request()->get('id'));
+    list($task_id, $task, $status) = $ctask->getTask(request()->get('id'));
+
 }
 
 include 'inc/header.php';
@@ -30,7 +31,7 @@ include 'inc/header.php';
                 <table>
                     <tr>
                         <th><label for="task">Task<span class="required">*</span></label></th>
-                        <td><input type="text" id="task" name="task" value="<?php echo htmlspecialchars($task); ?>" /></td>
+                        <td><input type="text" id="task" name="task" value="<?php if(!empty($task_id)) echo htmlspecialchars($task); ?>" /></td>
                     </tr>
                    </table>
                 <?php

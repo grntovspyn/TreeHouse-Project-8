@@ -4,14 +4,16 @@ require 'inc/bootstrap.php';
 $pageTitle = "Task List | Time Tracker";
 $page = "tasks";
 
+$task = new App\Model\Task;
+
 $filter = request()->get('filter');
 if ($filter=='all') {
-    $tasks = getTasks();
+    $tasks = $task->getTasks();
 } elseif ($filter=='complete') {
-    $tasks = getCompleteTasks();
+    $tasks = $task->getCompleteTasks();
 } else {
     $filter = 'incomplete';
-    $tasks = getIncompleteTasks();
+    $tasks = $task->getIncompleteTasks();
 }
 
 include 'inc/header.php';

@@ -10,7 +10,7 @@ include 'inc/header.php';
     <div class="col col-70-md col-60-lg col-center">
         <h2 class="form-signin-heading">Registration</h2>
 
-        <form class="form-container" method="post" action="/inc/doRegister.php">
+        <form class="form-container" method="post" action="./inc/doRegister.php">
             <table class="items">
                 <tr>
                     <th><label for="inputUsername" class="sr-only">Username</label></th>
