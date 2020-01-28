@@ -1,5 +1,4 @@
 <?php
-
 function isAuthenticated()
 {
     global $session;
@@ -25,4 +24,40 @@ function requireAuth()
         $session->getFlashBag()->add('error', 'Not authorized, please log in');
         redirect('./login.php');
     }
+}
+
+function isAdmin()
+{
+    if(!isAuthenticated()) {
+        return false;
+    }
+
+    global $session;
+    return $session->get('auth_roles') === 2;
+}
+
+function requireAdmin()
+{
+    if(!isAdmin()) {
+        global $session;
+        $session->getFlashBag()->add('error', 'Not Authorized');
+        redirect('../');
+    }
+}
+
+function isOwner($ownerId)
+{
+    if(!isAuthenticated()){
+        return false;
+    }
+    global $session;
+    return $ownerId == $session->get('auth_user_id');
+}
+
+function getAuthenticatedUser()
+{
+    global $session;
+    $user = new App\Model\User;
+    return $user->findUserById($session->get('auth_user_id'));
+
 }

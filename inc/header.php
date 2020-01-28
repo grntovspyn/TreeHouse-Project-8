@@ -4,6 +4,7 @@
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
 </head>
@@ -53,6 +54,9 @@
       </h1>
 
         <ul class="nav navbar-left">
+        <?php if(isAdmin()){ ?>
+        <li class="nav-item tasks<?php if ($page == "tasks") { echo " on"; } ?>"><a class="nav-link" href="admin.php">Admin</a></li>
+        <?php } ?>
         <?php if(isAuthenticated()){ ?>
         <li class="nav-item tasks<?php if ($page == "tasks") { echo " on"; } ?>"><a class="nav-link" href="task_list.php">View Tasks</a></li>
         <li class="nav-item task<?php if ($page == "task") { echo " on"; } ?>"><a class="nav-link" href="task.php">Add Tasks</a></li>
