@@ -93,11 +93,11 @@ function isOwner($ownerId)
     if(!isAuthenticated()){
         return false;
     }
-    return $ownerId == decodeAuthCookie('auth_user_id');
+    return $ownerId == decodeAuthCookie('sub');
 }
 
 function getAuthenticatedUser()
 {
     $user = new App\Model\User;
-    return $user->findUserById(decodeAuthCookie('auth_user_id'));
+    return $user->findUserById(decodeAuthCookie('sub'));
 }

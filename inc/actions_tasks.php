@@ -1,5 +1,5 @@
 <?php
-require_once "bootstrap.php";
+require_once __DIR__ . '/../inc/bootstrap.php';
 $tasks = new App\Model\Task;
 
 $action = request()->get('action');
@@ -17,7 +17,7 @@ case "add":
     if (empty($task)) {
         $session->getFlashBag()->add('error', 'Please enter a task');
     } else {
-        if ($tasks->createTask(['task'=>$task, 'status'=>$status, 'owner_id'=>$session->get('auth_user_id')])) {
+        if ($tasks->createTask(['task'=>$task, 'status'=>$status, 'owner_id'=>decodeAuthCookie('sub')])) {
             $session->getFlashBag()->add('success', 'New Task Added');
         }
     }

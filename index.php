@@ -5,7 +5,7 @@ $pageTitle = "Time Tracker";
 $page = null;
 
 include 'inc/header.php';
-var_dump(decodeAuthCookie());
+var_dump(decodeAuthCookie('sub'));
 ?>
     <div class="col-container actions-container">
       <h1>Welcome</h1>
