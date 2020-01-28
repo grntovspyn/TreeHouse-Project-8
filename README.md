@@ -11,8 +11,8 @@
 #### Admin Page
 
 To test admin functionality log in with
-- admin
-- 123
+admin
+123
 
 - Promote and demote users
 - Delete Users
