@@ -45,7 +45,10 @@ include 'inc/header.php';
                                             <?php } ?>
                                               
                                         <?php } ?>
-                                        <a href="inc/deleteUser.php?roleId=1&userId=<?php echo $users['id']; ?>" class="btn btn-xs btn-danger float-right" onclick="return confirm('Are you sure you want tot delete this task?')">Delete User</a>
+                                        <?php if (!isOwner($users['id'])) { ?>
+                                            <a href="inc/deleteUser.php?roleId=1&userId=<?php echo $users['id']; ?>" class="btn btn-xs btn-danger float-right" onclick="return confirm('Are you sure you want tot delete this user?')">Delete User</a>
+                                        <?php } ?>
+                                        
                                     </td>                                
                                 </tr>
                             <?php } ?>
