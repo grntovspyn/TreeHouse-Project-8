@@ -12,4 +12,15 @@ if($password != $confirmPassword) {
 
 $user = new App\Model\User;
 
-$user->createUser($username, $password);
+$checkName = $user->checkUsername($username);
+
+if(!empty($checkName)) {
+    $session->getFlashBag()->add('error', 'Username taken, please choose another username');
+    redirect('../register.php');
+}
+
+$hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+$newUser = $user->createUser($username, $hashedPassword);
+saveUserSession($newUser);
+$session->getFlashBag()->add('success', 'New account created');
+redirect('../');

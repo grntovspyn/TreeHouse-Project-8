@@ -25,7 +25,7 @@ include 'inc/header.php';
                     <td><input type="password" id="inputPassword" name="confirm_password" class="form-control" placeholder="Confirm Password" required></td>
                 </tr>
             </table>
-            <input class="button button--primary button--topic-php" type="submit" value="Change Password" />
+            <input class="button button--primary button--topic-php" type="submit" value="Register" />
         </form>
     </div>
 </div>

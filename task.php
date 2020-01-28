@@ -1,6 +1,5 @@
 <?php
 require_once 'inc/bootstrap.php';
-
 $pageTitle = "Task | Time Tracker";
 $page = "task";
 $ctask = new App\Model\Task;

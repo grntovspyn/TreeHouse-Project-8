@@ -5,15 +5,24 @@ class User extends Database
 {
     public function createUser($username, $password)
     {
-        global $session;
-
-        $sql = "INSERT INTO users (username, password) VALUES (:username, :password)";
-        $stmt = $this->database->prepare($sql);
+        $sql = 'INSERT INTO users (username, password) VALUES (:username, :password)';
+        $stmt = $this->db->prepare($sql);
         $stmt->bindParam('username', $username);
         $stmt->bindParam('password', $password);
         $stmt->execute();
-        if($stmt->rowCount() > 0);
-            $session->getFlashBag()->add('notice', 'Account Created');
-            redirect('../');
+        if ($stmt->rowCount() > 0) {
+            return $this->checkUsername($username);
+        }
+    }
+        
+    public function checkUsername($username)
+    {
+
+
+        $sql = "SELECT * FROM users WHERE username = :username";
+        $stmt = $this->db->prepare($sql);
+        $stmt->bindParam('username', $username);
+        $stmt->execute();
+        return $stmt->fetch();
     }
 }

@@ -6,7 +6,7 @@ use \Exception;
 
 class Database
 {
-    protected $db;
+    protected $database;
 
     public function __construct()
     {
