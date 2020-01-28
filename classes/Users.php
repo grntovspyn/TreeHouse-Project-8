@@ -65,9 +65,18 @@ class User extends Database
         }
     }
 
+    public function deleteUser($userId)
+    {
+        $sql = "DELETE FROM users WHERE id = :id";
+        $stmt = $this->db->prepare($sql);
+        $stmt->bindParam('id', $userId);
+        $this->db->exec( 'PRAGMA foreign_keys = ON;' );
+        $stmt->execute();
+        if ($stmt->rowCount() > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }
-
-
-// Save for Delete user function
-//  To enforce cascading in SQLITE
-// $this->database->exec( 'PRAGMA foreign_keys = ON;' );

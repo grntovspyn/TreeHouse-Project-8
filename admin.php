@@ -44,6 +44,7 @@ include 'inc/header.php';
                                                 <a href="inc/adjustRole.php?roleId=1&userId=<?php echo $users['id']; ?>"class="btn btn-xs btn-warning">Demote to General User</a>
                                             <?php } ?>
                                         <?php } ?>
+                                        
                                     </td>                                
                                 </tr>
                             <?php } ?>
