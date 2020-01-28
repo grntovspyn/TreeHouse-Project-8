@@ -9,13 +9,6 @@ if (request()->get('id')) {
 
 }
 
-
-/** TODO
- *  Restrict user access to view only their tasks.
- *  
- */
-
-
 include 'inc/header.php';
 ?>
 
