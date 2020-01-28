@@ -1,6 +1,6 @@
 <?php
 
-// Code heavy drawn from videos by Alena Holligan @ https://teamtreehouse.com/library/introduction-to-user-authentication-in-php
+// Code heavily drawn from videos by Alena Holligan @ https://teamtreehouse.com/library/introduction-to-user-authentication-in-php
 
 use Firebase\JWT\JWT;
 
