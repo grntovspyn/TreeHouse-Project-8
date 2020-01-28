@@ -5,13 +5,13 @@ $pageTitle = "Time Tracker";
 $page = null;
 
 include 'inc/header.php';
-var_dump(decodeAuthCookie('sub'));
 ?>
     <div class="col-container actions-container">
       <h1>Welcome</h1>
       <p class="actions-copy">What would you like to do today?</p>
       <div class="actions-wrapper">
         <ul class="actions">
+      <?php if(isAuthenticated()) { ?>
             <li class="actions-item">
                 <a class="actions-link" href="task_list.php">
               <span class="actions-icon">
@@ -28,12 +28,14 @@ var_dump(decodeAuthCookie('sub'));
               Add Task
             </a>
           </li>
+      <?php } else { ?>
           <li class="actions-item">
             <a class="actions-link" href="register.php">
               <span class="actions-icon">
                 <svg viewbox="0 0 64 64"><use xlink:href="#user_icon"></use></svg>
               </span>
                 Register
+      <?php } ?>
 		</div>
 
 <?php include("inc/footer.php"); ?>
