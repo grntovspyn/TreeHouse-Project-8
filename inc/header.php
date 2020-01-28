@@ -55,7 +55,7 @@
 
         <ul class="nav navbar-left">
         <?php if(isAdmin()){ ?>
-        <li class="nav-item tasks<?php if ($page == "tasks") { echo " on"; } ?>"><a class="nav-link" href="admin.php">Admin</a></li>
+        <li class="nav-item tasks<?php if ($page == "admin") { echo " on"; } ?>"><a class="nav-link" href="admin.php">Admin</a></li>
         <?php } ?>
         <?php if(isAuthenticated()){ ?>
         <li class="nav-item tasks<?php if ($page == "tasks") { echo " on"; } ?>"><a class="nav-link" href="task_list.php">View Tasks</a></li>

@@ -1,8 +1,8 @@
 <?php
 require_once 'inc/bootstrap.php';
 requireAdmin();
-$pageTitle = "Task | Time Tracker";
-$page = "task";
+$pageTitle = "Admin | Time Tracker";
+$page = "admin";
 $ctask = new App\Model\Task;
 $user = new App\Model\User;
 if (request()->get('id')) {

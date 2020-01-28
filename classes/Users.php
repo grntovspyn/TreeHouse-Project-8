@@ -66,3 +66,8 @@ class User extends Database
     }
 
 }
+
+
+// Save for Delete user function
+//  To enforce cascading in SQLITE
+// $this->database->exec( 'PRAGMA foreign_keys = ON;' );

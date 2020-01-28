@@ -60,9 +60,10 @@ class Task extends Database
         
 
         try {
-            $statement = $this->db->prepare('INSERT INTO tasks (task, status) VALUES (:task, :status)');
+            $statement = $this->db->prepare('INSERT INTO tasks (task, status, owner_id) VALUES (:task, :status, :owner_id)');
             $statement->bindParam('task', $data['task']);
             $statement->bindParam('status', $data['status']);
+            $statement->bindParam('owner_id', $data['owner_id']);
             $statement->execute();
         } catch (Exception $e) {
             echo 'Error!: '.$e->getMessage().'<br />';
