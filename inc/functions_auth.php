@@ -1,20 +1,47 @@
 <?php
 function isAuthenticated()
 {
-    global $session;
-
-    return $session->get('auth_logged_in', false);
+    return decodeAuthCookie();
 }
 
-function saveUserSession($user)
+function saveUserData($user)
 {
     global $session;
-    $session->set('auth_logged_in', true);
-    $session->set('auth_user_id', (int) $user['id']);
-    $session->set('auth_roles', (int) $user['role_id']);
-
     $session->getFlashBag()->add('success','Successfully logged in');
+    $expTime = time() + 3600;
+    $data = [
+        'auth_user_id' => (int) $user['id'],
+        'auth_roles' => (int) $user['role_id']
+    ];
+    
+    $cookie = setAuthCookie($data, $expTime);
+    redirect('../',['cookies'=>[$cookie]]);
+}
 
+function setAuthCookie($data, $expTime)
+{
+    $cookie = new \Symfony\Component\HttpFoundation\Cookie(
+        'auth',
+        json_encode($data),
+        $expTime,
+        '/',
+        'localhost',
+        false,
+        true
+    );
+    return $cookie;
+}
+
+function decodeAuthCookie($prop = null)
+{
+    $cookie = json_decode(request()->cookies->get('auth'));
+    if (null === $prop) {
+        return $cookie;
+    }
+    if(!isset($cookie->$prop)){
+        return false;
+    }
+    return $cookie->$prop;
 }
 
 function requireAuth()
@@ -31,9 +58,7 @@ function isAdmin()
     if(!isAuthenticated()) {
         return false;
     }
-
-    global $session;
-    return $session->get('auth_roles') === 2;
+    return decodeAuthCookie('auth_roles') === 2;
 }
 
 function requireAdmin()
@@ -50,14 +75,11 @@ function isOwner($ownerId)
     if(!isAuthenticated()){
         return false;
     }
-    global $session;
-    return $ownerId == $session->get('auth_user_id');
+    return $ownerId == decodeAuthCookie('auth_user_id');
 }
 
 function getAuthenticatedUser()
 {
-    global $session;
     $user = new App\Model\User;
-    return $user->findUserById($session->get('auth_user_id'));
-
+    return $user->findUserById(decodeAuthCookie('auth_user_id'));
 }

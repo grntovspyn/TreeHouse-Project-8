@@ -21,6 +21,5 @@ if(!empty($checkName)) {
 
 $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 $newUser = $user->createUser($username, $hashedPassword);
-saveUserSession($newUser);
 $session->getFlashBag()->add('success', 'New account created');
-redirect('../');
+saveUserData($newUser);

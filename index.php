@@ -7,7 +7,6 @@ $page = null;
 include 'inc/header.php';
 ?>
     <div class="col-container actions-container">
-
       <h1>Welcome</h1>
       <p class="actions-copy">What would you like to do today?</p>
       <div class="actions-wrapper">
