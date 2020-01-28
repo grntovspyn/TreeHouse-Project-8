@@ -2,6 +2,9 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/functions_auth.php';
 
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
 
 /*
  * Set access to components from \Symfony\Component\HttpFoundation\
