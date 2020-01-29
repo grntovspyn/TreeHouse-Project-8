@@ -36,7 +36,9 @@ include 'inc/header.php';
                 <svg viewbox="0 0 64 64"><use xlink:href="#user_icon"></use></svg>
               </span>
                 Register
+          </a>
           <?php } ?>
+          </ul>
 		</div>
 
 <?php include("inc/footer.php"); ?>
