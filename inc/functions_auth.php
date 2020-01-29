@@ -87,7 +87,7 @@ function requireAdmin()
     if(!isAdmin()) {
         global $session;
         $session->getFlashBag()->add('error', 'Not Authorized');
-        redirect('../');
+        redirect('./');
     }
 }
 
